@@ -16,6 +16,8 @@ type Pokemon struct {
 	HP      int
 	Attack  int
 	Defense int
+
+	
 }
 
 //func randomAttack() int {
