@@ -18,13 +18,6 @@ type Pokemon struct {
 	Defense int
 }
 
-//func randomAttack() int {
-
-//rand.Seed(time.Now().UnixNano())
-//randomNumber :=
-//fmt.Println(randomNumber)
-//}
-
 // Battle func fur Pokemon.
 
 func Battle(pokemon1, pokemon2 *Pokemon) string {
@@ -113,6 +106,8 @@ func main() {
 		}
 		pokemons = append(pokemons, &Pokemon{Name: name, Type: ptype, HP: hp, Attack: attack, Defense: defense})
 	}
+
+	// pokemons = pokemons.append(pokemon, Abra43BaseSet)
 
 	//Overlay scan pokemon.
 	fmt.Println("Select Pokemon:")
